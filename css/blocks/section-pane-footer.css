@@ -1,0 +1,118 @@
+.section-pane-footer {
+    margin-bottom: 120px;
+}
+
+.section-pane-footer__row {
+    position: relative;
+    padding-inline: 85px;
+    /* max-width: 1530px; */
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.section-pane-footer__row::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 41px;
+    height: 68px;
+    transform: translate(00%, 0%);
+    background-image: url('./../../img/pane-footer/desktop/star-01.svg');
+    background-repeat: no-repeat;
+}
+
+.section-pane-footer__row::after {
+    content: "";
+    
+    position: absolute;
+    right: -34px;
+    right: 0;
+    bottom: 0px;
+    width: 47px;
+    height: 54px;
+
+    transform: translate(00%, 0%);
+    
+    
+    background-image: url('./../../img/pane-footer/desktop/star-02.svg');
+    background-repeat: no-repeat;
+    
+}
+
+.pane-footer__img {
+    border-radius: 120px;
+    aspect-ratio: 251/345;
+    width: 250px;
+    /* max-width: 250px; */
+    /* width: 100%; */
+    /* height: 345px; */
+    /* flex: 1; */
+    /* flex-grow: 0.8; */
+    overflow: hidden;
+    background: #d9d9d9;
+    object-fit: cover;
+    object-position: center;
+}
+
+.pane-footer__img--long {
+    /* flex: 1; */
+    border-radius: 135px;
+    aspect-ratio: 290/470;
+    /*max-width: 290px; */
+}
+
+@media (max-width: 1550px) {
+    .section-pane-footer__row {
+        padding-inline: 50px;
+    }
+}
+
+@media (max-width: 920px) {
+    .section-pane-footer__row {
+        padding-inline: 30px;
+    }
+
+    .section-pane-footer__row::before {
+        width: 18px;
+        height: 29px;
+        background-image: url('./../../img/pane-footer/tablet/star-01.svg');
+    }
+
+    .section-pane-footer__row::after {
+        width: 20px;
+        height: 23px;
+        background-image: url('./../../img/pane-footer/tablet/star-02.svg');
+    }
+}
+
+@media (max-width: 767px) {
+    .section-pane-footer {margin-bottom: 80px;}
+}
+
+@media (max-width: 550px) {
+    .section-pane-footer {margin-bottom: 60px;}
+
+    .section-pane-footer__row {
+        padding-inline: 15px;
+        gap: 9px;
+    }
+
+    .section-pane-footer__row::before {
+        width: 8px;
+        height: 13px;
+        background-image: url('./../../img/pane-footer/mobile/star-01.svg');
+    }
+
+    .section-pane-footer__row::after {
+        width: 9px;
+        height: 11px;
+        background-image: url('./../../img/pane-footer/mobile/star-02.svg');
+    }
+}
+
+/* 18 29  | 20x23*/
+/* 8 13  | 9x11*/

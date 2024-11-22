@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Spa</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./lib/swiper/swiper-bundle.min.css">
+
+    <link rel="icon" type="image/x-icon" href="./img/favicon/favicon.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+</head>
+<body>
+
+    <nav class="nav">
+        <div class="container">
+            <div class="nav__row">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#!" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#!" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#!" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#!" class="nav__link">Contact</a></li>
+                </ul>
+                <a href="#!" class="nav__logo">
+                    <img src="./img/logo.svg" alt="Logo Powfections">
+                </a>
+
+                <div class="nav__btn-set">
+                    <button class="nav__btn ">
+                        <a href="#!" class="btn">Book</a>
+                    </button>
+    
+                     <!-- Mobile button open -->
+                    <button class="mobile-nav-btn">
+                        <div class="mobile-nav-btn__icon"></div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ======= Мобильная навигация  ============================ -->
+    <div class="mobile-nav ">
+        <!-- <button class="mobile-close-btn"></button> -->
+         <div class="nav__btn-set">
+            <button class="nav__btn">
+                <a href="#!" class="btn">Book</a>
+            </button>
+
+                <!-- Mobile button open -->
+            <!-- <button class="mobile-nav-btn">
+                <div class="mobile-nav-btn__icon"></div>
+            </button> -->
+        </div>
+
+        <ul class="mobile-nav-list">
+            <li class="mobile-nav-item"><a href="#!" class="mobile-nav-link">Home</a></li>
+            <li class="mobile-nav-item"><a href="#!" class="mobile-nav-link">About</a></li>
+            <li class="mobile-nav-item"><a href="#!" class="mobile-nav-link">Services</a></li>
+            <li class="mobile-nav-item"><a href="#!" class="mobile-nav-link">Contact</a></li>
+        </ul>
+
+        <a href="#!" class="nav__logo">
+            <img src="./img/logo.svg" alt="Logo Powfections">
+        </a>
+    </div>
+
+    <!-- ======= Fade для мобильной навигации  =================== -->
+	<div class="mobile-nav-fade"></div>
+
+   <header class="header ">
+        <div class="container">
+            <div class="header__grid">
+                <div class="header__round-text">
+                    <picture>
+                        <source media='(max-width: 320px)' srcset='./img/header/mobile/round-text.png 1x, ./img/header/mobile/round-text@2x.png 2x' />
+                        <source media='(max-width: 767px)' srcset='./img/header/tablet/round-text.png 1x, ./img/header/tablet/round-text@2x.png 2x'  />
+                        <source media='(min-width: 768px)' srcset='./img/header/desktop/round-text.png 1x, ./img/header/desktop/round-text@2x.png 2x'  />
+                                                
+                        <img src="./img/header/desktop/round-text.png" srcset="./img/header/desktop/round-text@2x.png" alt="Round text">
+                        <!-- <img src="./img/header/desktop/round-text.png" alt="Round text"> -->
+                    </picture>
+                    
+                </div>
+
+                <div class="header__col">
+                    <div class="scroll-text">Scroll to discover</div>
+                </div>
+
+                <div class="header__content">
+                    <div class="header-img-wrapper">
+                        <div class="header-img">
+                            <p class="header-title header-title--img">
+                                Woof!<br>Doggie&nbsp;Wash
+                            </p>
+
+                            <!-- <picture >
+                                <source media='(max-width: 320px)' srcset='./img/header/mobile/main-img.jpg 1x, ./img/header/mobile/main-img@2x.jpg 2x' />
+                                <source media='(max-width: 767px)' srcset='./img/header/tablet/main-img.jpg 1x, ./img/header/tablet/main-img@2x.jpg 2x'  />
+                                <source media='(min-width: 768px)' srcset='./img/header/desktop/main-img.jpg 1x, ./img/header/desktop/main-img@2x.jpg 2x'  />
+                                
+                                <img src="./img/header/desktop/main-img.jpg" srcset="./img/header/desktop/main-img@2x.jpg" alt="Pet img" class="header__img">
+                            </picture> -->
+                            <!-- <img src="./img/header/desktop/main-img.jpg" srcset="./img/header/desktop/main-img@2x.jpg" alt="Pet img" class="header__img"> -->
+                        </div>
+                        
+                        <h1 class="header-title header-title--black">
+                            Woof!<br>Doggie Wash
+                        </h1>
+                    </div>
+
+                    <div class="header__desc">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque augue eros, pellentesque nec tempor eu, sollicitudin at dolor. Cras commodo venenatis diam, nec venenatis massa auctor at.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="header__col">
+                    <div class="scroll-text scroll-text__bullet-right">Scroll to discover</div>
+                </div>
+            </div>
+        </div>
+
+   </header>
+
+   <main class="">
+    <section class="section">
+        <h2 class="visually-hidden">title</h2>
+        <div class="container">
+            <div class="section__grid">
+                <div class="section-col">
+                    <h2 class="section__title">We treat your pet as a family member</h2>
+                    <div class="section__text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque augue eros, pellentesque nec tempor eu, sollicitudin at dolor. Cras commodo venenatis diam, nec venenatis massa auctor at.
+                        </p>
+                    </div>
+                    <a href="#!" class="btn">Discover</a>
+                </div>
+
+                <div class="section-col">
+                    <div class="section-img">
+                        <picture >
+                            <source media='(max-width: 330px)' srcset='./img/content/mobile/treat.jpg 1x, ./img/content/mobile/treat@2x.jpg 2x' />
+                            <source media='(max-width: 767px)' srcset='./img/content/tablet/treat.jpg 1x, ./img/content/tablet/treat@2x.jpg 2x'  />
+                            <source media='(min-width: 768px)' srcset='./img/content/desktop/treat.jpg 1x, ./img/content/desktop/treat@2x.jpg 2x'  />
+                            
+                            <img src="./img/content/desktop/treat.jpg" srcset="./img/content/desktop/treat@2x.jpg" alt="Treat img" class="img-round-horizontal">
+                        </picture>
+                        <!-- <img src="./img/content/treat.jpg" srcset="./img/content/treat@2x.jpg" alt="Treat img" class="img-round-horizontal"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services-pics ">
+        <div class="container container-small">
+            <div class="services-pics__grid">
+                <!-- Service 1 -->
+                <div class="service-block service-block-01">
+                    <img src="./img/content/cat-01.svg" alt="Service 1 pict" class="service-block__img">
+
+                    <h3 class="service-block__title">Pawdicure</h3>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-block service-block-02">
+                    <img src="./img/content/cat-02.svg" alt="Service 2 pict" class="service-block__img">
+
+                    <h3 class="service-block__title">Spa Baths</h3>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-block service-block-03">
+                    <img src="./img/content/cat-03.svg" alt="Service 3 pict" class="service-block__img">
+
+                    <h3 class="service-block__title">Haircut of Choice</h3>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section-pane ">
+        <h2 class="visually-hidden">title</h2>
+        <div class="container">
+            <picture >
+                <source media='(max-width: 330px)' srcset='./img/content/mobile/pane.jpg 1x, ./img/content/mobile/pane@2x.jpg 2x' />
+                <source media='(max-width: 767px)' srcset='./img/content/tablet/pane.jpg 1x, ./img/content/tablet/pane@2x.jpg 2x'  />
+                <source media='(min-width: 768px)' srcset='./img/content/desktop/pane.jpg 1x, ./img/content/desktop/pane@2x.jpg 2x'  />
+                
+                <img src="./img/content/desktop/pane.jpg" srcset="./img/content/desktop/pane@2x.jpg" alt="Treat img" class="section-pane__img">
+            </picture>
+            <!-- <img src="./img/content/pane.png" srcset="./img/content/pane@2x.png" alt="Collage" class="section-pane__img"> -->
+        </div>
+    </section>
+
+    <section class="section section-paw ">
+        <h2 class="visually-hidden">title</h2>
+        <div class="container">
+            <div class="section__grid">
+                <div class="section-col">
+                    <h2 class="section__title">Qualified personal care for all breeds</h2>
+                    <div class="section__text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque augue eros, pellentesque nec tempor eu, sollicitudin at dolor. Cras commodo venenatis diam, nec venenatis massa auctor at.
+                        </p>
+                    </div>
+                    <a href="#!" class="btn">Discover</a>
+                </div>
+
+                <div class="section-col">
+                    <h3 class="paw-title">All full grooms include</h3>
+                    <ul class="paw-list">
+                        <li class="paw-item">A Warm Massage Jet Wash</li>
+                        <li class="paw-item">Fluff Dry</li>
+                        <li class="paw-item">Nails Trimmed</li>
+                        <li class="paw-item">Paw Pads Shaved</li>
+                        <li class="paw-item">Ear Cleaning</li>
+                        <li class="paw-item">Haircut of Choice</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-pane section-pane-02 ">
+        <h2 class="visually-hidden">title</h2>
+        <div class="container">
+            <picture >
+                <source media='(max-width: 330px)' srcset='./img/content/mobile/pane-02.jpg 1x, ./img/content/mobile/pane-02@2x.jpg 2x' />
+                <source media='(max-width: 767px)' srcset='./img/content/tablet/pane-02.jpg 1x, ./img/content/tablet/pane-02@2x.jpg 2x'  />
+                <source media='(min-width: 768px)' srcset='./img/content/desktop/pane-02.jpg 1x, ./img/content/desktop/pane-02@2x.jpg 2x'  />
+                
+                <img src="./img/content/desktop/pane-02.jpg" srcset="./img/content/desktop/pane-02@2x.jpg" alt="Collage" class="section-pane__img">
+            </picture>
+            <!-- <img src="./img/content/pane-02.png" srcset="./img/content/pane-02@2x.png" alt="Collage" class="section-pane__img"> -->
+        </div>
+    </section>
+
+    <section class="section-slider "> 
+        <h2 class="visually-hidden">Slider</h2>
+        <div class="container">
+
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <article class="swiper-slide slide-item">
+                        <div class="slide-item__img">
+                            <svg class="icon icon--doggy">
+                                <use href="./img/svgsprite/sprite.svg#doggy"></use>
+                            </svg>
+                        </div>
+                        <!-- <img src="./img/slider/slider-img.svg" alt="Slider img 1" class="slide-item__img"> -->
+                        
+                        <div class="slide-item__text">
+                            <p>
+                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque augue eros, pellentesque nec tempor eu, sollicitudin at dolor. Cras commodo venenatis diam, nec venenatis massa auctor at. Aliquam semper ante libero, non pharetra enim lacinia malesuada.”
+                            </p>
+                        </div>
+                        
+                        <h4 class="slide-item__name">Quisque mattis</h4>
+                    </article>
+
+                    <!-- Slide 2 -->
+                    <article class="swiper-slide slide-item">
+                        <div class="slide-item__img">
+                            <svg class="icon icon--cat-01">
+                                <use href="./img/svgsprite/sprite.svg#cat-01"></use>
+                            </svg>
+                        </div>
+                        <!-- <img src="./img/slider/cat-01.svg" alt="Slider img 1" class="slide-item__img"> -->
+                        
+                        <div class="slide-item__text">
+                            <p>
+                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque augue eros, pellentesque nec tempor eu, sollicitudin at dolor. Cras commodo venenatis diam, nec venenatis massa auctor at. Aliquam semper ante libero, non pharetra enim lacinia malesuada.”
+                            </p>
+                        </div>
+                        
+                        <h4 class="slide-item__name">Lora Fane</h4>
+                    </article>
+
+                    <!-- Slide 3 -->
+                    <article class="swiper-slide slide-item">
+                        <div class="slide-item__img">
+                            <svg class="icon icon--cat-02">
+                                <use href="./img/svgsprite/sprite.svg#cat-02"></use>
+                            </svg>
+                        </div>
+                        <!-- <img src="./img/slider/cat-02.svg" alt="Slider img 1" class="slide-item__img"> -->
+                        
+                        <div class="slide-item__text">
+                            <p>
+                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque augue eros, pellentesque nec tempor eu, sollicitudin at dolor. Cras commodo venenatis diam, nec venenatis massa auctor at. Aliquam semper ante libero, non pharetra enim lacinia malesuada.”
+                            </p>
+                        </div>
+                        
+                        <h4 class="slide-item__name">Mew Cat</h4>
+                    </article>
+
+                    <!-- Slide 4 -->
+                    <article class="swiper-slide slide-item">
+                        <div class="slide-item__img">
+                            <svg class="icon icon--cat-03">
+                                <use href="./img/svgsprite/sprite.svg#cat-03"></use>
+                            </svg>
+                        </div>
+                        
+                        <div class="slide-item__text">
+                            <p>
+                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque augue eros, pellentesque nec tempor eu, sollicitudin at dolor. Cras commodo venenatis diam, nec venenatis massa auctor at. Aliquam semper ante libero, non pharetra enim lacinia malesuada.”
+                            </p>
+                        </div>
+                        
+                        <h4 class="slide-item__name">Kitty Pet</h4>
+                    </article>
+                    
+                </div>
+ 
+                <!-- Navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- Pagination -->
+                <div class="swiper-pagination"></div>
+            
+            </div>
+        </div>
+    </section>
+
+    <section class="section-pane-footer ">
+        <h2 class="visually-hidden">Pane footer</h2>
+        <div class="container container-md">
+            <div class="section-pane-footer__row">
+                <div class="pane-footer__img">
+                    <!-- Picture 1 -->
+                    <picture >
+                        <source media='(max-width: 330px)' srcset='./img/pane-footer/mobile/01.jpg 1x, ./img/pane-footer/mobile/01@2x.jpg 2x' />
+                        <source media='(max-width: 767px)' srcset='./img/pane-footer/tablet/01.jpg 1x, ./img/pane-footer/tablet/01@2x.jpg 2x'  />
+                        <source media='(min-width: 768px)' srcset='./img/pane-footer/desktop/01.jpg 1x, ./img/pane-footer/desktop/01@2x.jpg 2x'  />
+                        
+                        <img src="./img/pane-footer/desktop/01.jpg" srcset="./img/pane-footer/desktop/01@2x.jpg" alt="Image 01" class="pane-footer__pic">
+                    </picture>
+                    <!-- <img src="./img/pane-footer/desktop/01.jpg" srcset="./img/pane-footer/desktop/01@2x.jpg" alt="Image 01" class="pane-footer__pic"> -->
+                </div>
+
+                <!-- Picture 2 -->
+                <div class="pane-footer__img pane-footer__img--long">
+                    <picture >
+                        <source media='(max-width: 330px)' srcset='./img/pane-footer/mobile/02.jpg 1x, ./img/pane-footer/mobile/02@2x.jpg 2x' />
+                        <source media='(max-width: 767px)' srcset='./img/pane-footer/tablet/02.jpg 1x, ./img/pane-footer/tablet/02@2x.jpg 2x'  />
+                        <source media='(min-width: 768px)' srcset='./img/pane-footer/desktop/02.jpg 1x, ./img/pane-footer/desktop/02@2x.jpg 2x'  />
+                        
+                        <img src="./img/pane-footer/desktop/02.jpg" srcset="./img/pane-footer/desktop/02@2x.jpg" alt="Image 02" class="pane-footer__pic">
+                    </picture>
+                    <!-- <img src="./img/pane-footer/desktop/02.jpg" srcset="./img/pane-footer/desktop/02@2x.jpg" alt="Image 02" class="pane-footer__pic--long"> -->
+                </div>
+
+                <!-- Picture 3 -->
+                <div class="pane-footer__img">
+                    <picture >
+                        <source media='(max-width: 330px)' srcset='./img/pane-footer/mobile/03.jpg 1x, ./img/pane-footer/mobile/03@2x.jpg 2x' />
+                        <source media='(max-width: 767px)' srcset='./img/pane-footer/tablet/03.jpg 1x, ./img/pane-footer/tablet/03@2x.jpg 2x'  />
+                        <source media='(min-width: 768px)' srcset='./img/pane-footer/desktop/03.jpg 1x, ./img/pane-footer/desktop/03@2x.jpg 2x'  />
+                        
+                        <img src="./img/pane-footer/desktop/03.jpg" srcset="./img/pane-footer/desktop/03@2x.jpg" alt="Image 03" class="pane-footer__pic">
+                    </picture>
+                    <!-- <img src="./img/pane-footer/desktop/03.jpg" srcset="./img/pane-footer/desktop/03@2x.jpg" alt="Image 03" class="pane-footer__pic"> -->
+                </div>
+
+                <!-- Picture 4 -->
+                <div class="pane-footer__img pane-footer__img--long">
+                    <picture >
+                        <source media='(max-width: 330px)' srcset='./img/pane-footer/mobile/04.jpg 1x, ./img/pane-footer/mobile/04@2x.jpg 2x' />
+                        <source media='(max-width: 767px)' srcset='./img/pane-footer/tablet/04.jpg 1x, ./img/pane-footer/tablet/04@2x.jpg 2x'  />
+                        <source media='(min-width: 768px)' srcset='./img/pane-footer/desktop/04.jpg 1x, ./img/pane-footer/desktop/04@2x.jpg 2x'  />
+                        
+                        <img src="./img/pane-footer/desktop/04.jpg" srcset="./img/pane-footer/desktop/04@2x.jpg" alt="Image 04" class="pane-footer__pic">
+                    </picture>
+                    <!-- <img src="./img/pane-footer/desktop/04.jpg" srcset="./img/pane-footer/desktop/04@2x.jpg" alt="Image 04" class="pane-footer__pic--long"> -->
+                </div>
+
+                <!-- Picture 5 -->
+                <div class="pane-footer__img">
+                    <picture >
+                        <source media='(max-width: 330px)' srcset='./img/pane-footer/mobile/05.jpg 1x, ./img/pane-footer/mobile/05@2x.jpg 2x' />
+                        <source media='(max-width: 767px)' srcset='./img/pane-footer/tablet/05.jpg 1x, ./img/pane-footer/tablet/05@2x.jpg 2x'  />
+                        <source media='(min-width: 768px)' srcset='./img/pane-footer/desktop/05.jpg 1x, ./img/pane-footer/desktop/05@2x.jpg 2x'  />
+                        
+                        <img src="./img/pane-footer/desktop/05.jpg" srcset="./img/pane-footer/desktop/05@2x.jpg" alt="Image 05" class="pane-footer__pic">
+                    </picture>
+                    <!-- <img src="./img/pane-footer/desktop/05.jpg" srcset="./img/pane-footer/desktop/05@2x.jpg" alt="Image 05" class="pane-footer__pic"> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+   </main>
+
+   <footer class="footer ">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__logo">
+                    <img src="./img/footer/footer-logo.svg" alt="Footer logo">
+                </div>
+                <div class="footer__nav-wrapper">
+                    <div class="footer__nav">
+                        <h3 class="footer__nav-title">Menu</h3>
+                        <ul class="footer__nav-list">
+                            <li class="footer__nav-item"><a href="#!" class="footer__nav-link">Home</a></li>
+                            <li class="footer__nav-item"><a href="#!" class="footer__nav-link">About</a></li>
+                            <li class="footer__nav-item"><a href="#!" class="footer__nav-link">Services</a></li>
+                            <li class="footer__nav-item"><a href="#!" class="footer__nav-link">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__nav">
+                        <h3 class="footer__nav-title">contact</h3>
+                        <ul class="footer__nav-list">
+                            <li class="footer__nav-item">Pawfections@contact.com</li>
+                            <li class="footer__nav-item">+012-345-6789</li>
+                            <li class="footer__nav-item">9889 Lorem Ipsum street, Pellentesque, CA, USA</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__copyright">
+                <p class="footer__copyright-text">Copyright Dotcreativemarket</p>
+                <ul class="footer__copyright-list">
+                    <li class="footer__copyright-item"><a href="#!" class="footer__copyright-link">Terms of Use</a></li>
+                    <li class="footer__copyright-item"><a href="#!" class="footer__copyright-link">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+   </footer>
+    
+   <script src="./lib/swiper/swiper-bundle.min.js"></script>
+   <script src="./js/main.js"></script>
+</body>
+</html>

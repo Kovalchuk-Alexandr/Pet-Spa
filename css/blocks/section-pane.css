@@ -1,0 +1,9 @@
+.section-pane {margin-bottom: 140px;}
+
+@media (max-width: 767px) {
+    .section-pane {margin-bottom: 80px;}
+}
+
+@media (max-width: 550px) {
+    .section-pane {margin-bottom: 60px;}
+}
